@@ -24,6 +24,9 @@ git checkout develop && atom .
 export HUGO_BASE_URL=https://territoiresetfuturs.fr
 export HUGO_BASE_URL=https://territoires-et-futurs.github.io/siteweb/
 hugo -b ${HUGO_BASE_URL}
+if [ -d ./docs/ ]; then
+  rm -fr docs/
+fi;
 cp -fR public/* docs/
 echo "${HUGO_BASE_URL}" > docs/CNAME
 git add -A && git commit -m "deploy" && git push -u origin HEAD
