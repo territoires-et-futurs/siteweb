@@ -60,10 +60,11 @@ export TOML_FILE_PATH=${TEMP_SPWAN_HOME}/theme.toml
 npm run parse-hugo-them-toml | tee -a ${TEMP_SPWAN_HOME}/hugo.theme.to.json
 
 # cat ${TEMP_SPWAN_HOME}/hugo.theme.to.json | jq .name
-cat ./.npm.scripts/hugo.theme.to.json  | jq .name | awk -F '"' '{print $2}'
+# cat ./.npm.scripts/hugo.theme.to.json  | jq .name | awk -F '"' '{print $2}'
+cat ./.npm.scripts/hugo.theme.to.json  | jq .name | awk -F '"' '{print $2}' | tr '[:upper:]' '[:lower:]' | sed 's# #-#g'
 
 # export HUGO_THEME_NAME=$(cat ${TEMP_SPWAN_HOME}/hugo.theme.to.json | jq .name)
-export HUGO_THEME_NAME=$(cat ./.npm.scripts/hugo.theme.to.json  | jq .name | awk -F '"' '{print $2}')
+export HUGO_THEME_NAME=$(cat ./.npm.scripts/hugo.theme.to.json  | jq .name | awk -F '"' '{print $2}' | tr '[:upper:]' '[:lower:]' | sed 's# #-#g')
 
 echo "According [theme.toml], the hugo theme name is : [${HUGO_THEME_NAME}]"
 mkdir -p themes/${HUGO_THEME_NAME}
