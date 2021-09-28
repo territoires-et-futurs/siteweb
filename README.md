@@ -21,15 +21,15 @@ export PATH=$PATH:/usr/local/go/bin && go version
 git clone git@github.com:territoires-et-futurs/siteweb.git ~/territoires-et-futurs-work
 cd ~/territoires-et-futurs-work
 git checkout develop && atom .
-export HUGO_BASE_URL=https://territoiresetfuturs.fr
 export HUGO_BASE_URL=https://territoires-et-futurs.github.io/siteweb/
+export HUGO_BASE_URL=https://territoiresetfuturs.fr
 hugo -b ${HUGO_BASE_URL}
 if [ -d ./docs/ ]; then
   rm -fr docs/
 fi;
 mkdir docs/
 cp -fR public/* docs/
-echo "${HUGO_BASE_URL}" > docs/CNAME
+echo "territoiresetfuturs.fr" > docs/CNAME
 git add -A && git commit -m "deploy" && git push -u origin HEAD
 
 git flow release start 0.0.0
