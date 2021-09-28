@@ -2,125 +2,125 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Territoires et Futurs</title>
-    <link>https://territoires-et-futurs.github.io/siteweb/tags/</link>
+    <link>https://territoiresetfuturs.fr/tags/</link>
     <description>Recent content in Tags on Territoires et Futurs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://territoires-et-futurs.github.io/siteweb/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://territoiresetfuturs.fr/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crise écologique</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/crise-%C3%A9cologique/</link>
+      <link>https://territoiresetfuturs.fr/tags/crise-%C3%A9cologique/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/crise-%C3%A9cologique/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/crise-%C3%A9cologique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ubuntu</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/ubuntu/</link>
+      <link>https://territoiresetfuturs.fr/tags/ubuntu/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/ubuntu/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microservice</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/microservice/</link>
+      <link>https://territoiresetfuturs.fr/tags/microservice/</link>
       <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/microservice/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/microservice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Security</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/security/</link>
+      <link>https://territoiresetfuturs.fr/tags/security/</link>
       <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/security/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kubernetes</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/kubernetes/</link>
+      <link>https://territoiresetfuturs.fr/tags/kubernetes/</link>
       <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/kubernetes/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/kubernetes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Travel</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/travel/</link>
+      <link>https://territoiresetfuturs.fr/tags/travel/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/travel/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/travel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Helm</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/helm/</link>
+      <link>https://territoiresetfuturs.fr/tags/helm/</link>
       <pubDate>Mon, 16 Apr 2018 15:00:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/helm/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/helm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>API Gateway</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/api-gateway/</link>
+      <link>https://territoiresetfuturs.fr/tags/api-gateway/</link>
       <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/api-gateway/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/api-gateway/</guid>
       <description></description>
     </item>
     
     <item>
       <title>service Mesh</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/service-mesh/</link>
+      <link>https://territoiresetfuturs.fr/tags/service-mesh/</link>
       <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/service-mesh/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/service-mesh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/docker/</link>
+      <link>https://territoiresetfuturs.fr/tags/docker/</link>
       <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/docker/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tips</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/tips/</link>
+      <link>https://territoiresetfuturs.fr/tags/tips/</link>
       <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/tips/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/tips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/vim/</link>
+      <link>https://territoiresetfuturs.fr/tags/vim/</link>
       <pubDate>Fri, 09 Feb 2018 11:00:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/vim/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nginmesh</title>
-      <link>https://territoires-et-futurs.github.io/siteweb/tags/nginmesh/</link>
+      <link>https://territoiresetfuturs.fr/tags/nginmesh/</link>
       <pubDate>Tue, 02 Jan 2018 12:00:00 +0000</pubDate>
       
-      <guid>https://territoires-et-futurs.github.io/siteweb/tags/nginmesh/</guid>
+      <guid>https://territoiresetfuturs.fr/tags/nginmesh/</guid>
       <description></description>
     </item>
     
