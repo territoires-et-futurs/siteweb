@@ -1,7 +1,8 @@
 #!/bin/bash
 export territoiresfuturs_ENV=${territoiresfuturs_ENV:-"staging"}
 source .${territoiresfuturs_ENV}.env
-export HUGO_THEME_GIT_SSH=${HUGO_THEME_GIT_SSH:-"git@github.com:themefisher/airspace-hugo.git"}
+# export HUGO_THEME_GIT_SSH=${HUGO_THEME_GIT_SSH:-"git@github.com:themefisher/airspace-hugo.git"}
+export HUGO_THEME_GIT_SSH=${HUGO_THEME_GIT_SSH:-"git@github.com:zhaohuabing/hugo-theme-cleanwhite.git"}
 
 if [ "x${HUGO_BASE_URL}" == "x" ]; then
   echo "the HUGO_BASE_URL env. var. is not defined, stopping the hugo project spawn"
