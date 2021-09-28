@@ -1,22 +1,31 @@
 {
-    "name": "reveal-hugo",
-    "license": "MIT",
-    "licenselink": "https://github.com/dzello/reveal-hugo/blob/master/LICENSE",
-    "homepage": "https://reveal-hugo.dzello.com/",
+    "name": "Clean White",
+    "license": "Apache",
+    "licenselink": "https://github.com/zhaohuabing/hugo-theme-cleanwhite/blob/master/LICENSE",
+    "description": "A clean, elegant blog theme for hugo",
+    "homepage": "https://github.com/zhaohuabing/hugo-theme-cleanwhite",
     "tags": [
-        "presentation",
-        "revealjs"
+        "minimal",
+        "responsive",
+        "blog",
+        "light",
+        "clean",
+        "search"
     ],
     "features": [
-        "presentation"
+        "disqus",
+        "site search",
+        "responsive",
+        "google analytics",
+        "side bar"
     ],
+    "min_version": 0.1,
     "author": {
-        "name": "Josh Dzielak",
-        "homepage": "https://dzello.com/"
+        "name": "Huabing Zhao",
+        "homepage": "https://github.com/zhaohuabing"
     },
     "original": {
-        "name": "reveal.js",
-        "homepage": "https://revealjs.com",
-        "repo": "https://github.com/hakimel/reveal.js/"
+        "name": "huxblog",
+        "homepage": "https://github.com/Huxpro/huxpro.github.io"
     }
 }
