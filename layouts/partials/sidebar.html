@@ -11,7 +11,8 @@
     {{ if .Site.Params.featured_tags }}
     <section>
         <hr class="hidden-sm hidden-xs">
-        <h5>FEATURED TAGS</h5>
+        <!-- <h5>TAGS (étiquettes)</h5> -->
+
         <div class="tags">
             {{ $featured_condition_size := .Site.Params.featured_condition_size }}
             {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
@@ -228,7 +229,7 @@
     {{ if .Site.Params.friends }}
     <section>
         <hr class="hidden-sm hidden-xs">
-        <h5>FRIENDS</h5>
+        <!-- <h5>FRIENDS</h5> -->
         <ul class="list-inline">
             {{ range .Site.Params.friend_link }}
             <li><a target="_blank" href="{{.href | relLangURL}}">{{.title}}</a></li>

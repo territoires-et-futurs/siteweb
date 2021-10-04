@@ -7,7 +7,7 @@ excerpt: "本任务将演示如何将应用流量逐渐从旧版本的服务迁�
 date:     2017-11-07
 author:     "赵化冰"
 image: "https://img.zhaohuabing.com/in-post/istio-traffic-shifting/crossroads.png"
-categories: [ "Tech"]
+categories: [ "Newspapers" ]
 tags:
     - Crise écologique
 URL: "/2017/11/07/istio-traffic-shifting/"

@@ -66,7 +66,18 @@
                         </a>
                     </li>
 		    {{ end }}
-
+        <!-- JBL: add Discord invite link -->
+                    {{ with .Site.Params.social.discord }}
+                    <li>
+                        <a target="_blank" href="{{ . | relURL }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
+                                <i class="fab svg-inline--fa fa-discord fa-w-14 fa-3x fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    {{ end }}
 		    <!-- Huabing: add wechat QR code link -->
                     {{ with .Site.Params.social.wechat }}
                     <li>

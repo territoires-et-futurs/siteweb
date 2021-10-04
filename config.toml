@@ -15,8 +15,46 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   # header_image = "img/territoires/Logo-Territoires.jpg"
-  header_image = "img/territoires/Puy-de-dôme.jpg"
+  header_image = "/img/territoires/Puy-de-dôme.jpg"
+  # header_image = "img/territoires/melange-logo-photo-accueil-resized.png"
   # header_image = "img/home-bg-jeep.jpg"
+  # --- header_image_lexique
+  header_image_lexique = "/img/territoires/unspalsh/tom-hermans-9BoqXzEeQqM-unsplash.jpg"
+  categorie_lexique_titre = "Lexique"
+  categorie_lexique_sous_titre = "Dictionnaire des mots et concepts utilisés dans les différentes publications."
+  header_image_piat = "/img/territoires/unspalsh/Limagne.jpg"
+  categorie_piat_titre = "Plateforme d'Intervention sur l'Aménagement du Territoire"
+  categorie_piat_sous_titre = "Il s'agit de concevoir un \"vrai\" plan d'aménagement du territoire (conforme aux exigences éthiques de la préservation de la Nature, du Vivant, et des espèces), à l'échelle 2030-2050."
+  header_image_publications = "/img/territoires/unspalsh/boston-public-library-CyQMm7Mg5YQ-unsplash.jpg"
+  categorie_publications_titre = "Publications"
+  categorie_publications_sous_titre = "Articles et synthèses produits par nos différents groupes de médiation scientifique et culturelle"
+
+  header_image_newspapers = "/img/territoires/unspalsh/clementina-toso-pvZ_0ODWruo-unsplash.jpg"
+  categorie_newspapers_titre = "Newspapers"
+  categorie_newspapers_sous_titre = "Sélection Hebdomadaire des meilleurs articles de la presse internationale, nationale et locale"
+
+
+  header_image_reseau = "/img/territoires/unspalsh/luke-porter-NEqEC7qa9FM-unsplash.jpg"
+  categorie_reseau_titre = "Réseau"
+  categorie_reseau_sous_titre = "Rencontres, solidarité, éthique et transformation sociale"
+
+  header_image_sport = "/img/territoires/unspalsh/meghan-holmes-buWcS7G1_28-unsplash.jpg"
+  categorie_sport_titre = "Sport"
+  categorie_sport_sous_titre = "Un esprit sain, dans un corps sain (anima sana, in corpore sano)"
+
+
+  header_image_donations = "/img/territoires/unspalsh/andre-taissin-Dc2SRspMak4-unsplash.jpg"
+  categorie_donations_titre = "Faire un don"
+  categorie_donations_sous_titre = "Devenir Mécène de notre média-réseau"
+
+  header_image_quisommesnous = "/img/territoires/Puy-de-dôme.jpg"
+  categorie_quisommesnous_titre = "Qui sommes-nous?"
+  categorie_quisommesnous_sous_titre = ""
+
+  header_image_contact = "/img/territoires/Logo-Territoires.jpg"
+  categorie_contact_titre = "Contact"
+  categorie_contact_sous_titre = ""
+
   SEOTitle = "Territoires et Futurs"
   description = "un projet d'intervention territorial inscrit dans une éthique de préservation de la nature, du vivant et des espèces, qui a pour vocation à faire se rassembler, au sein d'un réseau, des individus de tous horizons qui seront capable de s'organiser pour prendre des décisions et intervenir de manière cohérente sur tout le territoire"
   keyword = "urbanisation, plan d'aménagement du territoire"
@@ -67,16 +105,17 @@ home = ["HTML", "RSS", "Algolia"]
   #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
 
   [params.social]
-  rss            = true
-  email          = "youremail@gmail.com"
+  # rss            = true
+  # email          = "voilacherchemoi@gmail.com"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
   #twitter       = "full profile url in twitter"
-  linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
-  stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  discord        = "https://discord.com/in/yourdiscord"
+  # linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
+  # stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
   #instagram     = "full profile url in instagram"
-  github         = "https://github.com/yourgithub"
-  wechat         = "your wechat qr code image"
+  github         = "https://github.com/territoires-et-futurs/siteweb"
+  # wechat         = "your wechat qr code image"
 #  medium         = "full profile url in medium"
   #pinterest     = "full profile url in pinterest"
   #reddit        = "full profile url in reddit"
@@ -103,16 +142,18 @@ home = ["HTML", "RSS", "Algolia"]
   title = "unsplash"
   href = "https://unsplash.com"
 
+  # [[params.addtional_menus]]
+  # title =  "BOOKS"
+  # href =  "/top/books/"
   [[params.addtional_menus]]
-  title =  "BOOKS"
-  href =  "/top/books/"
+  title =  "Faire un Don"
+  href =  "/top/donations/"
   [[params.addtional_menus]]
-  title =  "ARCHIVE"
-  href =  "/top/archive/"
+  title =  "Qui sommes-nous ?"
+  href =  "/top/quisommesnous/"
   [[params.addtional_menus]]
-  title =  "ABOUT"
-  href =  "/top/about/"
-
+  title =  "Contact"
+  href =  "/top/contact/"
 [outputFormats.Algolia]
 baseName = "algolia"
 isPlainText = true

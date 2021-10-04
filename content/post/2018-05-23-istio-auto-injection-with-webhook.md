@@ -13,7 +13,7 @@ tags:
     - Kubernetes
     - Crise écologique
 URL: "/2018/05/23/istio-auto-injection-with-webhook/"
-categories: [ Tech ]
+categories: [ Publications ]
 ---
 
 ## 前言

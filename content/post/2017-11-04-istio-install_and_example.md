@@ -10,7 +10,7 @@ image: "https://img.zhaohuabing.com/in-post/istio-install_and_example/post-bg.jp
 tags:
     - Crise écologique
 URL: "/2017/11/04/istio-install_and_example/"
-categories: [ Tech ]
+categories: [ Publications ]
 ---
 
 ## 服务网格简介

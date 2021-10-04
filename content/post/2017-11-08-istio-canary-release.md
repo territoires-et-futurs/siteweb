@@ -10,7 +10,7 @@ published: true
 tags:
     - Crise écologique
 URL: "/2017/11/08/istio-canary-release/"
-categories: [ "Tech" ]
+categories: [ "Sport" ]
 ---
 
 ## 灰度发布（又名金丝雀发布）介绍
@@ -101,8 +101,8 @@ spec:
         image: istio/examples-bookinfo-reviews-v3:0.2.3
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 9080    
----         
+        - containerPort: 9080
+---
 ```
 
 部署V1版本的Bookinfo程序。
@@ -124,7 +124,7 @@ reviews-v1-1360980140-0zs9z       2/2       Running   0          2m
 ```
 在浏览器中打开应用程序页面，地址为istio-ingress的External IP。由于V1版本的reviews服务并不会调用rating服务，因此可以看到Product 页面显示的是不带星级的评价信息。
 
-`http://10.12.25.116/productpage`  
+`http://10.12.25.116/productpage`
 ![](/https://img.zhaohuabing.com/in-post/istio-canary-release/product-page-default.PNG)
 
 此时系统中微服务的部署情况如下图所示（下面的示意图均忽略和本例关系不大的details和ratings服务）：
@@ -263,7 +263,7 @@ kind: RouteRule
 metadata:
   name: reviews-default
 spec:
-  destination: 
+  destination:
     name: reviews
   precedence: 1
   route:
@@ -295,4 +295,3 @@ istioctl delete -f route-rule-test-reviews-v2.yaml -n default
 ## 参考
 
 * [Istio官方文档](https://istio.io/docs/)
-
