@@ -6,31 +6,58 @@
     <description>Recent content in Categories on Territoires et Futurs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://territoiresetfuturs.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://territoiresetfuturs.fr/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tech</title>
-      <link>https://territoiresetfuturs.fr/categories/tech/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <title>Lexique</title>
+      <link>https://territoiresetfuturs.fr/categories/lexique/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://territoiresetfuturs.fr/categories/tech/</guid>
+      <guid>https://territoiresetfuturs.fr/categories/lexique/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tips</title>
-      <link>https://territoiresetfuturs.fr/categories/tips/</link>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      <title>Publications</title>
+      <link>https://territoiresetfuturs.fr/categories/publications/</link>
+      <pubDate>Wed, 23 May 2018 15:00:00 +0000</pubDate>
       
-      <guid>https://territoiresetfuturs.fr/categories/tips/</guid>
+      <guid>https://territoiresetfuturs.fr/categories/publications/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Life</title>
-      <link>https://territoiresetfuturs.fr/categories/life/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <title>PIAT</title>
+      <link>https://territoiresetfuturs.fr/categories/piat/</link>
+      <pubDate>Wed, 23 May 2018 10:00:00 +0000</pubDate>
       
-      <guid>https://territoiresetfuturs.fr/categories/life/</guid>
+      <guid>https://territoiresetfuturs.fr/categories/piat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Réseau</title>
+      <link>https://territoiresetfuturs.fr/categories/r%C3%A9seau/</link>
+      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
+      
+      <guid>https://territoiresetfuturs.fr/categories/r%C3%A9seau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sport</title>
+      <link>https://territoiresetfuturs.fr/categories/sport/</link>
+      <pubDate>Wed, 08 Nov 2017 15:00:00 +0000</pubDate>
+      
+      <guid>https://territoiresetfuturs.fr/categories/sport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>newspapers</title>
+      <link>https://territoiresetfuturs.fr/categories/newspapers/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://territoiresetfuturs.fr/categories/newspapers/</guid>
       <description></description>
     </item>
     
