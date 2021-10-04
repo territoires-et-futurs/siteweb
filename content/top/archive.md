@@ -1,6 +1,6 @@
 ---
-title: "Posts Archive"
+title: "Archives"
 layout: archive
 type: post
-description: Archive of historical posts.
+description: "Archives par dates, et par années, des articles publiés sur https://territoiresetfuturs.fr"
 ---
