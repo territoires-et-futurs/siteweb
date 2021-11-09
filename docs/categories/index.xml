@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Territoires et Futurs</title>
-    <link>https://territoiresetfuturs.fr/categories/</link>
+    <link>http://127.0.0.1:4545/categories/</link>
     <description>Recent content in Categories on Territoires et Futurs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://territoiresetfuturs.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://127.0.0.1:4545/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lexique</title>
-      <link>https://territoiresetfuturs.fr/categories/lexique/</link>
+      <link>http://127.0.0.1:4545/categories/lexique/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://territoiresetfuturs.fr/categories/lexique/</guid>
+      <guid>http://127.0.0.1:4545/categories/lexique/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>https://territoiresetfuturs.fr/categories/publications/</link>
+      <link>http://127.0.0.1:4545/categories/publications/</link>
       <pubDate>Wed, 23 May 2018 15:00:00 +0000</pubDate>
       
-      <guid>https://territoiresetfuturs.fr/categories/publications/</guid>
+      <guid>http://127.0.0.1:4545/categories/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PIAT</title>
-      <link>https://territoiresetfuturs.fr/categories/piat/</link>
+      <link>http://127.0.0.1:4545/categories/piat/</link>
       <pubDate>Wed, 23 May 2018 10:00:00 +0000</pubDate>
       
-      <guid>https://territoiresetfuturs.fr/categories/piat/</guid>
+      <guid>http://127.0.0.1:4545/categories/piat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Réseau</title>
-      <link>https://territoiresetfuturs.fr/categories/r%C3%A9seau/</link>
+      <link>http://127.0.0.1:4545/categories/r%C3%A9seau/</link>
       <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://territoiresetfuturs.fr/categories/r%C3%A9seau/</guid>
+      <guid>http://127.0.0.1:4545/categories/r%C3%A9seau/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sport</title>
-      <link>https://territoiresetfuturs.fr/categories/sport/</link>
+      <link>http://127.0.0.1:4545/categories/sport/</link>
       <pubDate>Wed, 08 Nov 2017 15:00:00 +0000</pubDate>
       
-      <guid>https://territoiresetfuturs.fr/categories/sport/</guid>
+      <guid>http://127.0.0.1:4545/categories/sport/</guid>
       <description></description>
     </item>
     
     <item>
       <title>newspapers</title>
-      <link>https://territoiresetfuturs.fr/categories/newspapers/</link>
+      <link>http://127.0.0.1:4545/categories/newspapers/</link>
       <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://territoiresetfuturs.fr/categories/newspapers/</guid>
+      <guid>http://127.0.0.1:4545/categories/newspapers/</guid>
       <description></description>
     </item>
     

@@ -10,6 +10,7 @@ git checkout develop && atom .
 npm i
 npm run spawn
 # and then run :
+npm i
 hugo serve -b http://127.0.0.1:4545 -p 4545 --bind 127.0.0.1 -w
 ```
 

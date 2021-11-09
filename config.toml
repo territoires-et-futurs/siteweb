@@ -14,6 +14,8 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
+  # SNIPCART
+  snipcart_api_key = "NjBhMDE3MDYtYjllNS00MThlLTk3MzAtYjQ3ZTk2OTFiNjYyNjM3NzIwODkwOTkwMDM5ODM0"
   # header_image = "img/territoires/Logo-Territoires.jpg"
   header_image = "/img/territoires/Puy-de-dôme.jpg"
   # header_image = "img/territoires/melange-logo-photo-accueil-resized.png"
