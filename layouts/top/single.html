@@ -12,6 +12,23 @@
                 post-container">
 
          	{{ .Content }}
+          <button class="buy-button snipcart-add-item" data-item-name="don_mecenat_xsmall" data-item-id="don_mecenat_xsmall" data-item-price="5.00" data-item-url="/top/donations" type="button" name="button">
+
+            Faire un don 5.00 euros
+          </button>
+          <button class="buy-button snipcart-add-item" data-item-name="don_mecenat_small" data-item-id="don_mecenat_small" data-item-price="20.00" data-item-url="/top/donations" type="button" name="button">
+
+            Faire un don 20.00 euros
+          </button>
+          <button class="buy-button snipcart-add-item" data-item-name="don_mecenat_medium" data-item-id="don_mecenat_medium" data-item-price="100.00" data-item-url="/top/donations" type="button" name="button">
+
+            Faire un don 100.00 euros
+          </button>
+          <button class="buy-button snipcart-add-item" data-item-name="don_mecenat_huge" data-item-id="don_mecenat_huge" data-item-price="1000.00" data-item-url="/top/donations" type="button" name="button">
+
+            Faire un don 1000.00 euros
+          </button>
+
                 {{ partial "comments.html" . }}
 
             </div>
@@ -57,4 +74,13 @@
     </div>
 </article>
 
+<!-- BEGINNING - SNIPCART COMPONENT LOADING -->
+<script async src="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.js"></script>
+<div hidden id="snipcart" data-api-key="{{ .Site.Params.snipcart_api_key }}" data-currency="eur"></div>
+<!-- <div hidden id="snipcart" data-api-key="{{ .Site.Params.snipcart_api_key }}" ></div> -->
+<!-- <div hidden id="snipcart" data-api-key="<{{ .Site.Params.snipcart_api_key }}>" data-config-add-product-behavior="none"></div>-->
+
+<!-- <div hidden id="snipcart" data-api-key="<{{ .Site.Params.snipcart_api_key }}>" data-config-modal-style="side"></div> -->
+
+<!-- END - SNIPCART COMPONENT LOADING -->
 {{ end }}
