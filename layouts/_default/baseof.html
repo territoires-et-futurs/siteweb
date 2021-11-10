@@ -14,8 +14,8 @@
   <header class="intro-header" style="background-image: url('{{ .Site.Params.header_image_publications }}')">
 {{ else if (eq .Page.RelPermalink "/categories/newspapers/" ) }}
   <header class="intro-header" style="background-image: url('{{ .Site.Params.header_image_newspapers }}'); background-color: rgba(0,0,255,0.3);">
-{{ else if (eq .Page.RelPermalink "/categories/r%C3%A9seau/" ) }}
-  <header class="intro-header" style="background-image: url('{{ .Site.Params.header_image_reseau }}'); background-color: rgba(0,0,255,0.3);">
+{{ else if (eq .Page.RelPermalink "/categories/%C3%A9v%C3%A8nements/" ) }}
+  <header class="intro-header" style="background-image: url('{{ .Site.Params.header_image_event }}'); background-color: rgba(0,0,255,0.3);">
 {{ else if (eq .Page.RelPermalink "/categories/sport/" ) }}
   <header class="intro-header" style="background-image: url('{{ .Site.Params.header_image_sport }}'); background-color: rgba(0,0,255,0.3);">
 {{ else if (eq .Page.RelPermalink "/top/donations/" ) }}
@@ -44,8 +44,8 @@
                     <h1>{{ .Site.Params.categorie_publications_titre }} </h1>
                   {{ else if (eq .Page.RelPermalink "/categories/newspapers/" ) }}
                     <h1>{{ .Site.Params.categorie_newspapers_titre }} </h1>
-                  {{ else if (eq .Page.RelPermalink "/categories/r%C3%A9seau/" ) }}
-                    <h1>{{ .Site.Params.categorie_reseau_titre }} </h1>
+                  {{ else if (eq .Page.RelPermalink "/categories/%C3%A9v%C3%A8nements/" ) }}
+                    <h1>{{ .Site.Params.categorie_event_titre }} </h1>
                   {{ else if (eq .Page.RelPermalink "/categories/sport/" ) }}
                     <h1>{{ .Site.Params.categorie_sport_titre }} </h1>
                   {{ else if (eq .Page.RelPermalink "/top/donations/" ) }}
@@ -67,8 +67,8 @@
                         <span class="subheading">{{ .Site.Params.categorie_publications_sous_titre }}</span>
                     {{ else if (eq .Page.RelPermalink "/categories/newspapers/" ) }}
                         <span class="subheading">{{ .Site.Params.categorie_newspapers_sous_titre }}</span>
-                    {{ else if (eq .Page.RelPermalink "/categories/r%C3%A9seau/" ) }}
-                        <span class="subheading">{{ .Site.Params.categorie_reseau_sous_titre }}</span>
+                    {{ else if (eq .Page.RelPermalink "/categories/%C3%A9v%C3%A8nements/" ) }}
+                        <span class="subheading">{{ .Site.Params.categorie_event_sous_titre }}</span>
                     {{ else if (eq .Page.RelPermalink "/categories/sport/" ) }}
                         <span class="subheading">{{ .Site.Params.categorie_sport_sous_titre }}</span>
                     {{ else if (eq .Page.RelPermalink "/top/donations/" ) }}

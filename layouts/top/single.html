@@ -12,26 +12,12 @@
                 post-container">
 
          	{{ .Content }}
-          <button class="buy-button snipcart-add-item" data-item-name="don_mecenat_xsmall" data-item-id="don_mecenat_xsmall" data-item-price="5.00" data-item-url="/top/donations" type="button" name="button">
-
-            Faire un don 5.00 euros
-          </button>
-          <button class="buy-button snipcart-add-item" data-item-name="don_mecenat_small" data-item-id="don_mecenat_small" data-item-price="20.00" data-item-url="/top/donations" type="button" name="button">
-
-            Faire un don 20.00 euros
-          </button>
-          <button class="buy-button snipcart-add-item" data-item-name="don_mecenat_medium" data-item-id="don_mecenat_medium" data-item-price="100.00" data-item-url="/top/donations" type="button" name="button">
-
-            Faire un don 100.00 euros
-          </button>
-          <button class="buy-button snipcart-add-item" data-item-name="don_mecenat_huge" data-item-id="don_mecenat_huge" data-item-price="1000.00" data-item-url="/top/donations" type="button" name="button">
-
-            Faire un don 1000.00 euros
-          </button>
+          {{ partial "snipcart-buttons.html" }}
 
                 {{ partial "comments.html" . }}
 
             </div>
+
             <!-- Sidebar Container -->
             <div class="
                 col-lg-11 col-lg-offset-1
@@ -71,6 +57,7 @@
                 {{ end }}
             </div>
         </div>
+
     </div>
 </article>
 
