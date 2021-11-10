@@ -37,9 +37,9 @@ home = ["HTML", "RSS", "Algolia"]
   categorie_newspapers_sous_titre = "Sélection Hebdomadaire des meilleurs articles de la presse internationale, nationale et locale"
 
 
-  header_image_reseau = "/img/territoires/unspalsh/luke-porter-NEqEC7qa9FM-unsplash.jpg"
-  categorie_reseau_titre = "Réseau"
-  categorie_reseau_sous_titre = "Rencontres, solidarité, éthique et transformation sociale"
+  header_image_event = "/img/territoires/unspalsh/luke-porter-NEqEC7qa9FM-unsplash.jpg"
+  categorie_event_titre = "Évènements"
+  categorie_event_sous_titre = "Manifestations, rencontres-débats, stages..."
 
   header_image_sport = "/img/territoires/unspalsh/meghan-holmes-buWcS7G1_28-unsplash.jpg"
   categorie_sport_titre = "Sport"
@@ -113,7 +113,7 @@ home = ["HTML", "RSS", "Algolia"]
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
   #twitter       = "full profile url in twitter"
-  discord        = "https://discord.com/in/yourdiscord"
+  discord        = "https://discord.gg/PztESTkD"
   # linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
   # stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
   #instagram     = "full profile url in instagram"
@@ -169,8 +169,8 @@ params = ["categories", "tags"]
 
 [markup]
   [markup.tableOfContents]
-    endLevel = 2
-    startLevel = 1
+    endLevel = 4
+    startLevel = 2
   [markup.highlight]
     style = "dracula"
 
