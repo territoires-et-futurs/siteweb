@@ -21,19 +21,16 @@ h2#au-programme, h2#date, h2#heure, h2#lieu {
   letter-spacing: 1px;
 }
 
-.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    line-height: 1.42857143;
-    text-align: center;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    vertical-align: middle;
+li.starus.on.github {
+  position: relative;
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 1rem;
+}
+
+li.starus.on.github iframe {
+  position: relative;
+  display: block;
+  float: left;
 }
