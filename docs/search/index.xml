@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Searches on Territoires et Futurs</title>
-    <link>https://territoiresetfuturs.fr/search/</link>
+    <link>https://territoiresetfuturs/search/</link>
     <description>Recent content in Searches on Territoires et Futurs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language><atom:link href="https://territoiresetfuturs.fr/search/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr-fr</language><atom:link href="https://territoiresetfuturs/search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://territoiresetfuturs.fr/search/placeholder/</link>
+      <link>https://territoiresetfuturs/search/placeholder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://territoiresetfuturs.fr/search/placeholder/</guid>
+      <guid>https://territoiresetfuturs/search/placeholder/</guid>
       <description></description>
     </item>
     
