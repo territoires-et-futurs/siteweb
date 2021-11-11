@@ -82,6 +82,70 @@
                 {{ end }}
 
                 <hr>
+                <p>
+                  La liste devrait donc se trouver ci-dessous <quote>{{ .Page.Params.LanguageCode }}</quote> :
+                  <ul>
+                    <li>une possibilité : [ {{ .Date.Weekday }}  {{ printf "%d" .Date.Weekday }} / {{ .Date.Day }}. {{ .Date.Month }} {{ ( printf "%d" .Date.Month) }} {{ .Date.Year }}] </li>
+                    <li> Ma Fameuse Date
+                      {{ .Date.Day }}. {{ .Date.Month }} {{ .Date.Year }}
+
+
+                    </li>
+
+
+                  <li>La liste all_i18N_data ci-dessous:</li>
+
+                  {{ range $ma_culture, $all_i18N_data := $.Site.Data.translations }}
+                      {{ if (eq $ma_culture "fr-FR" ) }}
+                        {{ range $mykey, $myvalue := $all_i18N_data.calendrier }}
+                        <li><a href="{{ $mykey }}">clef du mois : {{ $mykey }} | valeur ici: {{ $myvalue.mois.text }} </a></li>
+                        <li><a href="{{ $mykey }}"> {{ .Date.Day }}. {{ $myvalue.mois.text }} {{ .Date.Year }} </a></li>
+                        {{ end }}
+                      {{ else }}
+                        non,on affiche pas pour les Japonais
+                        {{ $.Site.Params.locale }}
+                      {{ end }}
+                  {{ end }}
+
+                  <li>Quick test Day of Week :</li>
+                  <li><a href="#">FILTRE - jour de la semaine : {{ $.Site.Data.translations.jourdelasemaine.text }}  / jour de publication : {{  $.Date.Weekday }} / Clef du jour de publication : {{  printf "%d" $.Date.Weekday }}</a></li>
+                  <li>Test day of week : </li>
+
+                  {{ range $ma_culture, $all_i18N_data := $.Site.Data.translations }}
+
+                      {{ if (eq $ma_culture "fr-FR" ) }}
+                        {{ range $mykey, $myvalue := $all_i18N_data.semainier }}
+                          {{  $clefJourDePublication := (printf "%d" $.Date.Weekday) }}
+                          <li>clefJourDePublication = {{  $clefJourDePublication  }}</li>
+                          <li>clefJourDePublication reformatée en chaîne de caractères = {{  (printf "%#v" $clefJourDePublication)  }}</li>
+
+                          <li>mykey = {{  $mykey  }}</li>
+                          {{ if (eq $clefJourDePublication "$mykey") }}
+                             <li>
+                               oui égalité
+                             </li>
+                          {{ else }}
+                              <li>tjrs pas d'égalité</li>
+                          {{ end }}
+                          {{ if eq (printf "%#v" $clefJourDePublication) (printf "%#v" $mykey) }}
+                            <li><a href="#">FILTRE - clef du jour : {{ $mykey }} | jour de la semaine : {{ $myvalue.jourdelasemaine.text }}  / jour de publication : {{  $.Date.Weekday }} / Clef du jour de publication : {{  printf "%d" $.Date.Weekday }}</a></li>
+                          {{ else }}
+                            <li>pas égal</li>
+                          {{ end }}
+                          <li><a href="{{ $mykey }}">clef du jour : {{ $mykey }} | jour de la semaine : {{ $myvalue.jourdelasemaine.text }}  / jour de publication : {{  $.Date.Weekday }} / Clef du jour de publication : {{  printf "%d" $.Date.Weekday }}</a></li>
+                        {{ end }}
+                      {{ else }}
+                        non,on affiche pas pour les Japonais
+                        {{ $.Site.Params.locale }}
+                      {{ end }}
+                  {{ end }}
+
+
+
+
+                  </ul>
+                </p>
+                <hr>
                 <ul class="pager">
                     {{ if .PrevInSection }}
                     <li class="previous">
