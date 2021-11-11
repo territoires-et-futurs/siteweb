@@ -107,6 +107,8 @@
                       {{ end }}
                   {{ end }}
 
+                  <li>Quick test Day of Week :</li>
+                  <li><a href="#">FILTRE - jour de la semaine : {{ $.Site.Data.translations.jourdelasemaine.text }}  / jour de publication : {{  $.Date.Weekday }} / Clef du jour de publication : {{  printf "%d" $.Date.Weekday }}</a></li>
                   <li>Test day of week : </li>
 
                   {{ range $ma_culture, $all_i18N_data := $.Site.Data.translations }}
@@ -116,7 +118,7 @@
                           {{  $clefJourDePublication := (printf "%d" $.Date.Weekday) }}
                           <li>clefJourDePublication = {{  $clefJourDePublication  }}</li>
                           <li>clefJourDePublication reformatée en chaîne de caractères = {{  (printf "%#v" $clefJourDePublication)  }}</li>
-                          
+
                           <li>mykey = {{  $mykey  }}</li>
                           {{ if (eq $clefJourDePublication "$mykey") }}
                              <li>
