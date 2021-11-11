@@ -14,3 +14,5 @@ URL: "/2017/11/07/istio-traffic-shifting/"
 ---
 
 # Article du Monde du 21/10/2021
+
+Notre analyse de l'article

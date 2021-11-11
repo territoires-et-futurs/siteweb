@@ -4,6 +4,7 @@ title = "Territoires et Futurs"
 theme = "clean-white"
 # languageCode = "en-us"
 languageCode = "fr-fr"
+locale = "fr_FR"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 googleAnalytics = ""
