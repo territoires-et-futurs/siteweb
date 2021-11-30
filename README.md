@@ -31,6 +31,8 @@ fi;
 mkdir docs/
 cp -fR public/* docs/
 echo "territoiresetfuturs.fr" > docs/CNAME
+echo "territoiresetfuturs.fr" > CNAME
+
 git add -A && git commit -m "deploy" && git push -u origin HEAD
 
 git flow release start 0.0.0

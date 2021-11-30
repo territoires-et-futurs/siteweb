@@ -1,7 +1,7 @@
 <!-- post list -->
 {{ range $index, $element := $.Paginator.Pages }}
 <div class="post-preview">
-    <a href="{{ .Permalink }}">
+    <a href="{{ .Permalink }}" class="cadre la main jaune">
         <h2 class="post-title">
             {{ .Title }}
         </h2>
@@ -10,12 +10,20 @@
             {{ . }}
         </h3>
 	{{ end }}
-        <div class="post-content-preview">
+        <div class="post-content-preview la main jaune">
 	{{ with .Description }}
             {{ . }}
         {{ else }}
             {{ .Summary}}
        {{ end }}
+            {{ if isset .Params "video_preview_youtube_id" }}
+              <div class="cadre la main jaune embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/{{ .Params.video_preview_youtube_id }}?enablejsapi=1{{ with .Params.video_preview_color }}{{ if eq . "white" }}&color=white{{ end }}{{ end }}{{ with .Params.video_preview_autoplay }}{{ if eq . "true" }}&autoplay=1{{ end }}{{ end }}{{ if isset .Params "video_preview_yt_start" }}&start={{ .Params.video_preview_yt_start }}{{ end }}{{ if isset .Params "video_preview_yt_end" }}&end={{ .Params.video_preview_yt_end }}{{ end }}{{ with .Params.video_preview_modestbranding }}{{ if eq . "true" }}&modestbranding=1{{ end }}{{ end }}" {{ if .Params.video_preview_cssclass }} class="{{ .Params.video_preview_cssclass }}"{{ end }} allowfullscreen></iframe>
+              </div>
+            {{ else }}
+                 <novideo/>
+            {{ end }}
+
         </div>
     </a>
     <p class="post-meta">
